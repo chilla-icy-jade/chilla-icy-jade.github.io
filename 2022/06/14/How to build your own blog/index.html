@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Say hello to ChillaChang&#39;s world | Welcome to Chilla&#39;s blog</title>
+  <title>How to build your own blog ? | Welcome to Chilla&#39;s blog</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="This is my first article in blog ChillaChang , also a model of markdown. How to build your first blog ?  After a few days work, I finally succeed to construct my own blog based on github. Here I recom">
+  <meta name="description" content="build your own blogAfter a few days work, I finally succeed to construct my own blog based on github ! Here I recommend a tutorial video for building a blog, and share my process in personalize and be">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Say hello to ChillaChang&#39;s world">
-<meta property="og:url" content="http://example.com/2022/06/14/Say-hello-to-ChillaChang-s-world/index.html">
+<meta property="og:title" content="How to build your own blog ?">
+<meta property="og:url" content="http://example.com/2022/06/14/How%20to%20build%20your%20own%20blog/index.html">
 <meta property="og:site_name" content="Welcome to Chilla&#39;s blog">
-<meta property="og:description" content="This is my first article in blog ChillaChang , also a model of markdown. How to build your first blog ?  After a few days work, I finally succeed to construct my own blog based on github. Here I recom">
+<meta property="og:description" content="build your own blogAfter a few days work, I finally succeed to construct my own blog based on github ! Here I recommend a tutorial video for building a blog, and share my process in personalize and be">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-06-14T14:59:52.000Z">
-<meta property="article:modified_time" content="2022-06-17T15:19:57.658Z">
+<meta property="article:modified_time" content="2022-06-18T03:29:16.690Z">
 <meta property="article:author" content="ChillaChang">
 <meta name="twitter:card" content="summary">
   
@@ -209,14 +209,14 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-Say-hello-to-ChillaChang-s-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-How to build your own blog" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
   
   
     <h1 class="article-title" itemprop="name">
-      Say hello to ChillaChang&#39;s world
+      How to build your own blog ?
     </h1>
   
 
@@ -228,7 +228,7 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/2022/06/14/Say-hello-to-ChillaChang-s-world/" class="archive-article-date">
+<a href="/2022/06/14/How%20to%20build%20your%20own%20blog/" class="archive-article-date">
         <time datetime="2022-06-14T14:59:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-06-14</time>
 </a>
 
@@ -238,10 +238,70 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <p>This is my first article in blog ChillaChang , also a model of markdown.</p>
-<p><strong>How to build your first blog ?</strong>  After a few days work, I finally succeed to construct my own blog based on <em>github</em>. Here I recommend a tutorial video for building a blog, and share my process in personalize and beautify my own blog.</p>
+    <h2 id="build-your-own-blog"><a href="#build-your-own-blog" class="headerlink" title="build your own blog"></a>build your own blog</h2><p>After a few days work, I finally succeed to construct my own blog based on <em>github</em> ! Here I recommend a tutorial video for building a blog, and share my process in personalize and beautify my own blog.</p>
 <p>I built my blog following  <em>CodeSheep</em> :</p>
 <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Yb411a7ty?share_source=copy_web">手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo</a></p>
+<h2 id="Change-theme-and-personalize"><a href="#Change-theme-and-personalize" class="headerlink" title="Change theme and personalize"></a>Change theme and personalize</h2><p>The theme I use is ‘<a target="_blank" rel="noopener" href="https://github.com/JoeyBling/hexo-theme-yilia-plus">yilia-plus</a>‘,  click the link and download from <em>github</em>, and do the personalization in its inner files :</p>
+<span id="more"></span>
+
+<h3 id="1-set-‘username’-and-‘site-title’"><a href="#1-set-‘username’-and-‘site-title’" class="headerlink" title="1.set ‘username’ and ‘site title’"></a>1.set ‘username’ and ‘site title’</h3><p>open file : </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">blog\_config.yml</span><br></pre></td></tr></table></figure>
+
+<p>find ‘site’ block , change ‘autho’ and ‘title’</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">Welcome</span> <span class="string">to</span> <span class="string">Chilla&#x27;s</span> <span class="string">blog</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="attr">keywords:</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">ChillaChang</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">en</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-set-own-‘favicon’-and-‘avatar’"><a href="#2-set-own-‘favicon’-and-‘avatar’" class="headerlink" title="2.set own ‘favicon’ and ‘avatar’"></a>2.set own ‘favicon’ and ‘avatar’</h3><p>‘favicon’ is the website icon on the left of your ‘site title’ ; ‘avatar’ is displayed on the left column  of your blog.</p>
+<p>save your own images in path </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">blog\themes\yilia-plus\source\img </span><br></pre></td></tr></table></figure>
+
+<p>open config file （note that it’s in different path from above） :</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">blog\themes\yilia-plus\_config.yml</span><br></pre></td></tr></table></figure>
+
+<p>find block and change : input the path of your local image file or the ‘url’ of pictures online </p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 网站图标</span></span><br><span class="line"><span class="attr">favicon:</span> <span class="string">/img/favicon.png</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 你的头像url</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="string">/img/header2.png</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-change-background-style-in-css-file"><a href="#3-change-background-style-in-css-file" class="headerlink" title="3. change background style in .css file"></a>3. change background style in .css file</h3><p>all the web settings are in ‘main.a5fda8.css’ file , path:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">blog\themes\yilia-plus\source\main.a5fda8.css</span><br></pre></td></tr></table></figure>
+
+<p>we can change and compile more readable ‘scss’ files and synchronize changes in ‘.css’  file </p>
+<ul>
+<li>install ‘node-sass’</li>
+</ul>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>watch changes in ‘.scss’ and sync to ‘.css’</li>
+</ul>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node-sass --watch source-src/css -o source</span><br></pre></td></tr></table></figure>
+
+<p>then when you do changes in ‘.scss’ files , it will automatically write changes to ‘.css’ files , terminal result here:</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Rendering Complete, saving .css file...</span><br><span class="line">Wrote CSS to C:\ChillaChang\blog\themes\yilia-plus\source\main.css</span><br><span class="line">=&gt; changed: C:\ChillaChang\blog\themes\yilia-plus\source-src\css\article.scss</span><br><span class="line">Rendering Complete, saving .css file...</span><br><span class="line">Wrote CSS to C:\ChillaChang\blog\themes\yilia-plus\source\article.css</span><br><span class="line">=&gt; changed: C:\ChillaChang\blog\themes\yilia-plus\source-src\css\article-inner.scss</span><br><span class="line">=&gt; changed: C:\ChillaChang\blog\themes\yilia-plus\source-src\css\main.scss</span><br></pre></td></tr></table></figure>
+
+
+
+<p>Then you can do changes in all the ‘.scss’ files !</p>
+<p><strong>example: change the color of left column</strong></p>
+<ul>
+<li>open file</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\blog\themes\yilia-plus\source-src\css\left.scss</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>change ‘background’</li>
+</ul>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.left-col</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#FEBE4A</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">300px</span>;</span><br><span class="line">  <span class="attribute">position</span>: fixed;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">transition</span>: all .<span class="number">2s</span> ease-in;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">999</span>;</span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">  <span class="attribute">overflow-y</span>: auto;</span><br><span class="line">  <span class="attribute">margin-bottom</span>: <span class="number">15px</span>;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>check terminal sync result</li>
+</ul>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Rendering Complete, saving .css file...</span><br><span class="line">Wrote CSS to C:\ChillaChang\blog\themes\yilia-plus\source\main.css</span><br><span class="line">=&gt; changed: C:\ChillaChang\blog\themes\yilia-plus\source-src\css\left.scss</span><br><span class="line">=&gt; changed: C:\ChillaChang\blog\themes\yilia-plus\source-src\css\main.scss</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>copy ‘main.css’ to ‘main.a5fda8.css’</li>
+<li>check blog update</li>
+</ul>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
 
     
 
@@ -256,7 +316,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="http://example.com/2022/06/14/Say-hello-to-ChillaChang-s-world/" title="Say hello to ChillaChang&#39;s world" target="_blank">http://example.com/2022/06/14/Say-hello-to-ChillaChang-s-world/</a>
+          <a href="http://example.com/2022/06/14/How to build your own blog/" title="How to build your own blog ?" target="_blank">http://example.com/2022/06/14/How to build your own blog/</a>
         </li>
         
         <li>
@@ -323,7 +383,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/06/14/Say-hello-to-ChillaChang-s-world/" alt="微信分享二维码"> -->
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/06/14/How%20to%20build%20your%20own%20blog/" alt="微信分享二维码"> -->
     </div>
 </div>
 
